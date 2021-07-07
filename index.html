@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Siam Computing</title>
+        <meta name="author" content="Siam Computing">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Tab Section -->
+        <section class="tab-navs">
+            <div class="container">
+                <!-- Tabs -->
+                <div class="row tabs-inner">
+                    <div class="col-lg-12">
+                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Heading</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Sidebar</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Main Body</a>
+                            </li>
+                          </ul>
+                          <div class="tab-content" id="pills-tabContent">
+
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="py-3">
+                                            <input type="color" id="color1" name="head">
+                                            <label for="head">Background Color</label>
+                                        </div>
+                                        
+                                        <div class="py-3">
+                                            <input type="color" id="color2" name="body">
+                                            <label for="body">Menu Text Color</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="py-3">
+                                            <input type="color" id="color3" name="head">
+                                            <label for="head">Your Name</label>
+                                        </div>
+                                        
+                                        <div class="py-3">
+                                            <input type="color" id="color4" name="body">
+                                            <label for="body">Designation</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="py-3">
+                                            <input type="color" id="color5" name="head">
+                                            <label for="head">Contact button color</label>
+                                        </div>
+                                        
+                                        <div class="py-3">
+                                            <input type="color" id="color6" name="body">
+                                            <label for="body">Contact button text color</label>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="py-3">
+                                            <input type="color" id="color7" name="head">
+                                            <label for="head">Get In Touchbutton Color</label>
+                                        </div>
+                                        
+                                        <div class="py-3">
+                                            <input type="color" id="color8" name="body">
+                                            <label for="body">Get In TOuch Text Color</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="py-3">
+                                            <input type="color" id="color9" name="head">
+                                            <label for="head">Website button color</label>
+                                        </div>
+                                        
+                                        <div class="py-3">
+                                            <input type="color" id="color10" name="body">
+                                            <label for="body">Website button text color</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="py-3">
+                                            <input type="color" id="color11" name="head">
+                                            <label for="head">Phone color </label>
+                                        </div>
+                                        
+                                        <div class="py-3">
+                                            <input type="color" id="color12" name="body">
+                                            <label for="body">Sidebar color</label>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="py-3">
+                                            <input type="color" id="color13" name="head">
+                                            <label for="head">Profile Background color</label>
+                                        </div>
+                                        
+                                        <div class="py-3">
+                                            <input type="color" id="color14" name="body">
+                                            <label for="body">Profile text color</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="py-3">
+                                            <input type="color" id="color15" name="head">
+                                            <label for="head">Profile button color</label>
+                                        </div>
+                                        
+                                        <div class="py-3">
+                                            <input type="color" id="color16" name="body">
+                                            <label for="body">Profile button text color </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="py-3">
+                                            <input type="color" id="color17" name="head">
+                                            <label for="head">Hyperlink color</label>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- Tabs End -->
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-mainbg menu-section position-relative">
+                <div class="container" id="navbar-background">
+                    <a class="navbar-brand navbar-logo" href="index.html" id="logo-name">
+                        <i class="fas fa-user"></i>Your Name
+                    </a>
+                    <p id="designation">UI Developer</p>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="fa fa-bars "></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto" id="menutextcolor">
+                            <li class="nav-item active">
+                                <a class="nav-link" id="btn-1" href="javascript:;">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Get In Touch</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+
+        </section>
+        <!-- Tab Section End -->
+
+
+        <script>
+            $("#color1").spectrum({
+                showPalette: true,
+                palette: [ ],
+                showSelectionPalette: true, // true by default
+                selectionPalette: ['yellow', 'green', 'blue', 'violet'],
+                color: "#f00",
+                change: function (color) {
+                    $('#navbar-background').css('background', color.toHexString());
+                }
+            });
+            $("#color2").spectrum({
+                showPalette: true,
+                palette: [ ],
+                showSelectionPalette: true, // true by default
+                selectionPalette: ['yellow', 'green', 'blue', 'violet'],
+                color: "#fff",
+                change: function (color) {
+                    $('#menutextcolor a').css('color', color.toHexString());
+                }
+            });
+            $("#color3").spectrum({
+                showPalette: true,
+                palette: [ ],
+                showSelectionPalette: true, // true by default
+                selectionPalette: ['yellow', 'green', 'blue', 'violet'],
+                color: "#fff",
+                change: function (color) {
+                    $('#logo-name').css('color', color.toHexString());
+                }
+            });
+            $("#color4").spectrum({
+                showPalette: true,
+                palette: [ ],
+                showSelectionPalette: true, // true by default
+                selectionPalette: ['yellow', 'green', 'blue', 'violet'],
+                color: "#fff",
+                change: function (color) {
+                    $('#designation').css('color', color.toHexString());
+                }
+            });
+            $("#color5").spectrum({
+                showPalette: true,
+                palette: [ ],
+                showSelectionPalette: true, // true by default
+                selectionPalette: ['yellow', 'green', 'blue', 'violet'],
+                color: "#fff",
+                change: function (color) {
+                    $('#btn-1').css('background', color.toHexString());
+                }
+            });
+            $("#color6").spectrum({
+                showPalette: true,
+                palette: [ ],
+                showSelectionPalette: true, // true by default
+                selectionPalette: ['yellow', 'black', 'blue', 'violet'],
+                color: "#f00",
+                change: function (color) {
+                    $('#btn-1').css('color', color.toHexString());
+                }
+            });
+            $("#color7, #color8, #color9, #color10, #color11, #color12").spectrum({
+                color: "#fff"
+            });
+        </script>
+
+    </body>
+
+</html>
