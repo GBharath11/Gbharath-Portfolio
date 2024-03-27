@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #dcd7d7;
+}
+
+.tab-navs {
+    padding: 50px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.tabs-inner .nav-link {
+    background: #e1dcdc;
+    margin: 0 10px 0 0px;
+    border-radius: 0;
+    color: #000;
+}
+
+.tab-navs .navbar .container {
+    background: #f00;
+    padding: 35px;
+}
+
+.tab-navs .navbar-brand {
+    color: #fff;
+}
+
+.tab-navs i {
+    padding: 15px;
+    border-radius: 50%;
+    background: #fff;
+    color: #ababab;
+    margin-right: 10px;
+}
+
+.menu-section .nav-link {
+    color: #fff;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+.menu-section #btn-1 {
+    background: #fff;
+    color: red;
+}
+
+.menu-section #designation {
+    margin-bottom: 0;
+    margin-left: 46px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 40px;
+    left: 210px;
+    color: #fff;
+}
+
+@media (max-width: 720px) {
+    .tab-navs {
+        padding: 8px;
+        margin: 10px;
+    }
+
+    .tab-navs .navbar .container {
+        padding: 15px;
+    }
+
+    .menu-section #designation {
+        position: relative;
+        bottom: 31px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 928px) {
+    .menu-section #designation {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        
+    }
+}

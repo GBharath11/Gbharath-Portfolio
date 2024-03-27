@@ -1,262 +1,223 @@
 <!DOCTYPE html>
-
-<html>
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Siam Computing</title>
-        <meta name="author" content="Siam Computing">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
-    </head>
-
-    <body>
-        <!-- Tab Section -->
-        <section class="tab-navs">
-            <div class="container">
-                <!-- Tabs -->
-                <div class="row tabs-inner">
-                    <div class="col-lg-12">
-                        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
-                            <li class="nav-item">
-                              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Heading</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Sidebar</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Main Body</a>
-                            </li>
-                          </ul>
-                          <div class="tab-content" id="pills-tabContent">
-
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                <div class="row">
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="py-3">
-                                            <input type="color" id="color1" name="head">
-                                            <label for="head">Background Color</label>
-                                        </div>
-                                        
-                                        <div class="py-3">
-                                            <input type="color" id="color2" name="body">
-                                            <label for="body">Menu Text Color</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="py-3">
-                                            <input type="color" id="color3" name="head">
-                                            <label for="head">Your Name</label>
-                                        </div>
-                                        
-                                        <div class="py-3">
-                                            <input type="color" id="color4" name="body">
-                                            <label for="body">Designation</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="py-3">
-                                            <input type="color" id="color5" name="head">
-                                            <label for="head">Contact button color</label>
-                                        </div>
-                                        
-                                        <div class="py-3">
-                                            <input type="color" id="color6" name="body">
-                                            <label for="body">Contact button text color</label>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                                <div class="row">
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="py-3">
-                                            <input type="color" id="color7" name="head">
-                                            <label for="head">Get In Touchbutton Color</label>
-                                        </div>
-                                        
-                                        <div class="py-3">
-                                            <input type="color" id="color8" name="body">
-                                            <label for="body">Get In TOuch Text Color</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="py-3">
-                                            <input type="color" id="color9" name="head">
-                                            <label for="head">Website button color</label>
-                                        </div>
-                                        
-                                        <div class="py-3">
-                                            <input type="color" id="color10" name="body">
-                                            <label for="body">Website button text color</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="py-3">
-                                            <input type="color" id="color11" name="head">
-                                            <label for="head">Phone color </label>
-                                        </div>
-                                        
-                                        <div class="py-3">
-                                            <input type="color" id="color12" name="body">
-                                            <label for="body">Sidebar color</label>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                                <div class="row">
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="py-3">
-                                            <input type="color" id="color13" name="head">
-                                            <label for="head">Profile Background color</label>
-                                        </div>
-                                        
-                                        <div class="py-3">
-                                            <input type="color" id="color14" name="body">
-                                            <label for="body">Profile text color</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="py-3">
-                                            <input type="color" id="color15" name="head">
-                                            <label for="head">Profile button color</label>
-                                        </div>
-                                        
-                                        <div class="py-3">
-                                            <input type="color" id="color16" name="body">
-                                            <label for="body">Profile button text color </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 col-lg-4">
-                                        <div class="py-3">
-                                            <input type="color" id="color17" name="head">
-                                            <label for="head">Hyperlink color</label>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-                <!-- Tabs End -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,500;0,600;0,800;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f541879a4a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./image/favicon.ico" type="/image/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resp.css">
+    <title>GB Portfolio</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="navigation" id="hero">
+            <div class="logo">
+                <h1><a href="index.html">GB</a></h1>
             </div>
+            <div class="menu">
+                <ul class="menu-bar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#My-projects">Myportfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
 
-            <nav class="navbar navbar-expand-lg navbar-mainbg menu-section position-relative">
-                <div class="container" id="navbar-background">
-                    <a class="navbar-brand navbar-logo" href="index.html" id="logo-name">
-                        <i class="fas fa-user"></i>Your Name
-                    </a>
-                    <p id="designation">UI Developer</p>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <i class="fa fa-bars "></i>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto" id="menutextcolor">
-                            <li class="nav-item active">
-                                <a class="nav-link" id="btn-1" href="javascript:;">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="javascript:;">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="javascript:;">Get In Touch</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="hamburger">
+                    <div id="hamburger" class="icon-ham" style="color:#fff" class="icon"><i class="fas fa-hamburger"></i></div>
+                    <ul id="ham-nav" class="ham-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#My-projects">Myportfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </div>
-            </nav>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- hero section -->
+    <div class="hero">
+        <div class="hero-row">
+            <div class="col1">
+                <h1><div class="divider-line"></div><div style="font-size: 15px; -webkit-text-stroke:2px rgb(255, 215, 215);letter-spacing: 2px; font-family: sans-serif; font-weight: 100 !important;">Web developer</div>HELLO I AM</h1><SPAN><h1 class="my-name">Bharath G</h1></SPAN>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+                    <a href="https://www.linkedin.com/in/ajay-k-185215213/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ajuajay11"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+            </div>
+            <div class="col2">
+                <!-- <img src="./image/photoshop1_adobesparkvhidelcued.png" alt=""> -->
+            </div>
+        </div>
+    </div>
+    <!-- hero section -->
+
+    <!-- section two-->
+    <div class="section-two" id="about">
+        <h1>A LITTLE ABOUT ME</h1>
+       <div class="divider"></div>
+        <p>I have been working as a Front End Developer since 2019. I'm very passionate and dedicated to my work. With 4 years experience as a professional web developer. Proficient in HTML, CSS, and JavaScript for web development. Experienced in customer support operations, adept at inquiry management and tailoring solutions to meet client needs. Skilled in tools such as Photoshop, Illustrator, InDesign, Veeva CRM, Salesforce, and eWizard. Specializing in WordPress, SEO strategies, and continuously enhancing ReactJS skills for comprehensive solutions.</p>
+        
+        <a class="cv-btn" href="image/Ajaykrishnan Resume.pdf" download="">Download CV</a>
+    </div>
+
+    <!-- section two-->
+
+    <!-- section three-->
+   
+<div class="skill" id="skills">
+    <h1>SKILLS</h1>
+    
+        <div style="background-color: #fff;" class="divider"></div>
+   
+    <div class="skill-bar">
+        <div class="html">
+            <h2>HTML</h2>
+        </div>
+        <div class="html">
+            <h2>CSS</h2>
+        </div>
+        <div class="html">
+            <h2>Javascript</h2>
+        </div>
+        <div class="html">
+            <h2>React JS</h2>
+        </div>
+        <div class="html">
+            <h2>Tailwind</h2>
+        </div>
+    </div><div class="skill-bar">
+        
+        <div class="html">
+            <h2>Bootstrap</h2>
+        </div>
+        <div class="html">
+            <h2>Adobe Photoshop</h2>
+        </div>
+        <div class="html">
+            <h2>Adobe Illustrator</h2>
+        </div>
+        <div class="html">
+            <h2>Salesforce</h2>
+        </div>
+        <div class="html">
+            <h2>Veeva CRM</h2>
+        </div>
+        </div></div>
+      
+</div>
+
+ <div class="My-projects" id="My-projects">
+    <h1 class="pro-title">PORTFOLIO</h1>
+    <div style="background-color: #000000;" class="divider"></div>
+       
+    <div class="project-index">
+        <div class="projects">
+            <img src="./image/animeflix.png" alt="animeflix">
+            <div class="link"> 
+                <h1 class="proj-name">ANIMEFLIX</h1>
+                <a href="javascript:;"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="projects">
+            <img src="./image/lottiebee.png" alt="lottie bee">
+            <div class="link"> 
+                <h1 class="proj-name">LOTTIE BEE</h1>
+                <a href="javascript:;"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="projects">
+            <img src="./image/Varaluae.png" alt="varal uae">
+            <div class="link">
+                <h1 class="proj-name">VARAL UAE</h1>
+                <a href="javascript:;"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+        
+        
+
+    </div>
+    <div class="projects-page">
+        <a href="javascript:;">Show More</a>
+    </div>
+ </div>
+      
+    <!-- section three-->
+
+    <!-- .contact section -->
+<div class="contact-sec" id="contact">
+    <h1 class="conct-title">GET IN TOUCH</h1>
+    <div style="background-color: #ffffff;" class="divider"></div>
+    <div class="conct-row">
+        <div class="conct-col-1">
+        <div class="details">
+            <div class="details-col">
+               <a href="#"><i class="fa-solid fa-location-dot"></i> &nbsp; No.23 Jayanagar Chennai 600100</a>
+            </div>
+            <div class="details-col">
+                <a href="#"><i class="fa-solid fa-phone"></i> &nbsp;+91 7010201336</a>
+             </div>
+             <div class="details-col">
+                <a href="#"><i class="fa-solid fa-envelope"></i> &nbsp;gncbharath11@gmail.com</a>
+             </div>
+             <div class="details-col">
+                <a href="#"><i class="fa-brands fa-github"></i> &nbsp;Git Hub Link</a>
+             </div>
+
+        </div>
+        </div>
+        <div class="conct-col-1" id="contact">
+            <form action="/" id="form-val" class="form-val">
+                
+                <div class="form-name">
+                    <input type="text" class="input" placeholder="Name" id="text" required>
+                    <input type="tel" class="input" placeholder="Phone" id="number" pattern="\d{10}" required>
+                </div>
+                <br>
+                 
+                <input type="email" placeholder="Email" id="email"><br>
+                
+                <input type="text" placeholder="Message" class="message" id="message"><br>
+    
+                <button class="sbt-btn" id="sbt-btn">Submit</button>
+            </form>
+        </div>
+
+    </div>
+    
+</div>
+
+<!-- Arrow up and down -->
+
+<div class="arrow" id="myBtn">
+    <a href="#hero"><i style="color:#fff" class="fa-solid fa-arrow-up arrow-icon"></i></a>
+</div>
+
+<!-- Arrow up and down -->
 
 
-
-        </section>
-        <!-- Tab Section End -->
+    <!-- contact section end-->
 
 
-        <script>
-            $("#color1").spectrum({
-                showPalette: true,
-                palette: [ ],
-                showSelectionPalette: true, // true by default
-                selectionPalette: ['yellow', 'green', 'blue', 'violet'],
-                color: "#f00",
-                change: function (color) {
-                    $('#navbar-background').css('background', color.toHexString());
-                }
-            });
-            $("#color2").spectrum({
-                showPalette: true,
-                palette: [ ],
-                showSelectionPalette: true, // true by default
-                selectionPalette: ['yellow', 'green', 'blue', 'violet'],
-                color: "#fff",
-                change: function (color) {
-                    $('#menutextcolor a').css('color', color.toHexString());
-                }
-            });
-            $("#color3").spectrum({
-                showPalette: true,
-                palette: [ ],
-                showSelectionPalette: true, // true by default
-                selectionPalette: ['yellow', 'green', 'blue', 'violet'],
-                color: "#fff",
-                change: function (color) {
-                    $('#logo-name').css('color', color.toHexString());
-                }
-            });
-            $("#color4").spectrum({
-                showPalette: true,
-                palette: [ ],
-                showSelectionPalette: true, // true by default
-                selectionPalette: ['yellow', 'green', 'blue', 'violet'],
-                color: "#fff",
-                change: function (color) {
-                    $('#designation').css('color', color.toHexString());
-                }
-            });
-            $("#color5").spectrum({
-                showPalette: true,
-                palette: [ ],
-                showSelectionPalette: true, // true by default
-                selectionPalette: ['yellow', 'green', 'blue', 'violet'],
-                color: "#fff",
-                change: function (color) {
-                    $('#btn-1').css('background', color.toHexString());
-                }
-            });
-            $("#color6").spectrum({
-                showPalette: true,
-                palette: [ ],
-                showSelectionPalette: true, // true by default
-                selectionPalette: ['yellow', 'black', 'blue', 'violet'],
-                color: "#f00",
-                change: function (color) {
-                    $('#btn-1').css('color', color.toHexString());
-                }
-            });
-            $("#color7, #color8, #color9, #color10, #color11, #color12").spectrum({
-                color: "#fff"
-            });
-        </script>
+    <footer>
+        <div class="copyright">
+           <div> © 2024 <i class="fa fa-heart"></i> G.Bharath. All Rights Reserved.</div>
+           <div> Terms & Policy Disclaimer</div>
+        </div>
+    </footer>
 
-    </body>
-
+<script src="./main.js"></script>
+</body>
 </html>
